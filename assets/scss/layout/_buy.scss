@@ -41,7 +41,7 @@
     }
 }
 
-// Tamaño de letra pequeña y otras propiedades
+// Tamaño de letra y otras propiedades
 @mixin mix_buy_button_font($param_family, $param_size, $param_weight, $param_padding_x, $param_padding_y, $param_border_radius)
 {
     font-family: $param_family;
