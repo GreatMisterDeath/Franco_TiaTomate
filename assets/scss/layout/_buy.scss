@@ -1,0 +1,83 @@
+// Colores del contenedor de contacto
+.buy-box
+{
+    background-color: $color-jellybean;
+    color: $color-white;
+}
+
+// Alineamiento del contenedor de contacto
+.buy-box__alignment
+{
+    padding: 48px;
+}
+
+// Fuente del contenedor de contacto
+.buy-box__font
+{
+    font-family: $font-raleway;
+    color: $color-white;
+    font-weight: $font-bold;
+
+    padding-bottom: 16px;
+}
+
+// Propiedades del boton al hacer hover y focus
+@mixin mix_buy_hover_focus
+{
+    background-color: $color-white;
+    color: $color-granitegray;
+
+    &:hover
+    {
+        background-color: $color-granitegray;
+        border-color: $color-granitegray;
+    }
+
+    &:focus
+    {
+        box-shadow: none !important;
+        background-color: $color-taupegray;
+        border-color: $color-granitegray;
+    }
+}
+
+// Tamaño de letra pequeña y otras propiedades
+@mixin mix_buy_button_font($param_family, $param_size, $param_weight, $param_padding_x, $param_padding_y, $param_border_radius)
+{
+    font-family: $param_family;
+    font-size: $param_size !important;
+    font-weight: $param_weight;
+
+    border-radius: $param_border_radius;
+
+    padding-left: $param_padding_x;
+    padding-right: $param_padding_x;
+
+    padding-top: $param_padding_y;
+    padding-bottom: $param_padding_y;
+}
+
+// Estilos para el boton
+.buy-box__button-style
+{
+    border-color: $color-granitegray;
+
+    @include mix_buy_hover_focus;
+
+    @media (max-width: 576px) // Boton tamaño "Small"
+    {
+        @include mix_buy_button_font($font-raleway, $font-size-medium, $font-bold, 1.0rem, 0.5rem, 64px);
+    }
+    @media (min-width: 577px) and (max-width: 768px) // Boton tamaño "Medium"
+    {
+        @include mix_buy_button_font($font-raleway, $font-size-medium, $font-bold, 2.5rem, 0.75rem, 80px);
+    }
+    @media (min-width: 769px) and (max-width: 1200px) // Boton tamaño "Large"
+    {
+        @include mix_buy_button_font($font-raleway, $font-size-medium, $font-bold, 5.0rem, 1.0rem, 96px);
+    }
+    @media (min-width: 1201px) // Boton tamaño "Big"
+    {
+        @include mix_buy_button_font($font-raleway, $font-size-xlarge, $font-bold, 10.0rem, 1.5rem, 144px);
+    }
+}

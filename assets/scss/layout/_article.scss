@@ -1,0 +1,177 @@
+// Centrar los textos de todos los "article"
+article
+{
+    text-align: center;
+}
+
+// Contenedor "Con cariño"
+.welcome-box
+{
+    background-color: $color-jellybean;
+
+    padding-top: 256px;
+    padding-bottom: 256px;
+}
+
+// Fuente 1 del contenedor "Con cariño"
+.welcome-box__font1
+{
+    font-family: $font-raleway;
+    color: $color-white;
+    font-weight: $font-extralight;
+}
+
+// Fuente 2 del contenedor "Con cariño"
+.welcome-box__font2
+{
+    font-family: $font-raleway;
+    color: $color-white;
+    font-weight: $font-bold;
+}
+
+// Contenedor "100% organicos"
+.tomatoes-box
+{
+    background-color: $color-granitegray;
+
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+// Tamaño del contenedor "100% organicos"
+.tomatoes-box__container-width
+{
+    width: 60vw;
+}
+
+// Administracion del tamaño de la imagen "100% organicos"
+.tomatoes-box__img
+{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+// Fuente 1 del contenedor  "100% organicos"
+.tomatoes-box__font1
+{
+    font-family: $font-raleway;
+    color: $color-white;
+    font-weight: $font-bold;
+
+    padding-top: 64px;
+    padding-bottom: 16px;
+}
+
+// Fuente 2 del contenedor  "100% organicos"
+.tomatoes-box__font2
+{
+    font-family: $font-raleway;
+    color: $color-white;
+    font-weight: $font-regular;
+
+    padding-top: 16px;
+}
+
+// Contenedor "Tomates limachinos"
+.limache-box
+{
+    background-color: $color-snow;
+
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+// Tamaño del contenedor "Tomates limachinos"
+.limache-box__container-width
+{
+    width: 60vw;
+}
+
+// Administracion del tamaño de la imagen "Tomates limachinos"
+.limache-box__img
+{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+// Fuente 1 del contenedor "Tomates limachinos"
+.limache-box__font1
+{
+    font-family: $font-raleway;
+    color: $color-granitegray;
+    font-weight: $font-bold;
+
+    padding-top: 64px;
+    padding-bottom: 16px;
+}
+
+// Fuente 2 del contenedor "Tomates limachinos"
+.limache-box__font2
+{
+    font-family: $font-raleway;
+    color: $color-granitegray;
+    font-weight: $font-regular;
+
+    padding-top: 16px;
+}
+
+// Contenedor "Titulo nosotros"
+.title-us
+{
+    background-color: $color-jellybean;
+
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+// Fuente del contenedor "Titulo nosotros"
+.title-us__font
+{
+    font-family: $font-raleway;
+    color: $color-white;
+    font-weight: $font-bold;
+}
+
+// Contenedor "Nosotros"
+.about-us
+{
+    background-color: $color-snow;
+
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+// Tamaño del contenedor "100% organicos"
+.about-us__container-width
+{
+    width: 60vw;
+}
+
+// Imagenes de los trabajadores del contenedor "Nosotros"
+.about-us__img
+{
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+// Fuente 1 del contenedor "Tomates limachinos"
+.about-us__font1
+{
+    font-family: $font-raleway;
+    color: $color-granitegray;
+    font-weight: $font-bold;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+// Fuente 2 del contenedor "Tomates limachinos"
+.about-us__font2
+{
+    font-family: $font-raleway;
+    color: $color-granitegray;
+    font-weight: $font-regular;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+}

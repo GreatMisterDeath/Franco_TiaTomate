@@ -1,0 +1,19 @@
+// Contenedor con la imagen del footer y sus propiedades
+.footer-box__img
+{
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    width: 256px;
+}
+
+// Color de fondo del footer
+.footer-box__background
+{
+    background-color: $color-granitegray;
+}

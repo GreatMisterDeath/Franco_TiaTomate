@@ -1,0 +1,15 @@
+// Importacion de fuentes
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap');
+
+// Integracion de parciales
+@import 'abstract/reset'; // Reinicio de estilos
+@import 'abstract/variables'; // Variables de colores, tamaños de fuente etc...
+@import "vendors/bootstrap-5.0.2/bootstrap.scss"; // Bootstrap SASS
+//@import 'base/base-fonts'; //
+@import 'layout/article'; //
+@import 'layout/buy'; //
+@import 'layout/footer'; //
+@import 'layout/header'; //
+//@import 'components/pagination_buttons';
+//@import 'pages/pages'; Sin usar, carpeta vacia
+//@import 'themes/themes';
