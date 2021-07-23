@@ -3,6 +3,14 @@ article
 {
     text-align: center;
 }
+// Centrar los h1 de todos los "div"
+div
+{
+    h1
+    {
+        text-align: center;
+    }
+}
 
 // Contenedor "Con cariño"
 .welcome-box

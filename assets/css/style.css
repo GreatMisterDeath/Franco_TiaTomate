@@ -10758,6 +10758,10 @@ article {
   text-align: center;
 }
 
+div h1, div .h1 {
+  text-align: center;
+}
+
 .welcome-box {
   background-color: #E56353;
   padding-top: 256px;
